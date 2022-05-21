@@ -1,0 +1,50 @@
+<xml xmlns="https://developers.google.com/blockly/xml">
+  <block type="s4d_login" id=")O7+PL3eS1Br}h;?X9N$" x="269" y="159">
+    <value name="TOKEN">
+      <block type="text" id="a7JxIIyK[Yr~TPL^-{W:">
+        <field name="TEXT">OTYzMDQ2ODU4MDE0NDY2MDY5.GCCNxc.hvXO4Ol5zag7Jnv5UV1nJEPOZ_LRA3RCmfzzv0</field>
+      </block>
+    </value>
+  </block>
+  <block type="s4d_on_message" id="Qx+aIDM=_,mj^tl$vGmW" x="288" y="238">
+    <statement name="STATEMENTS">
+      <block type="controls_if" id="Cr$f.P2*Nq2Dl}?D!r`(">
+        <value name="IF0">
+          <block type="logic_compare" id="oq-Tf{oSnv,],{N*FSF|">
+            <field name="OP">EQ</field>
+            <value name="A">
+              <block type="s4d_message_content" id="pyFMNvR6J#o6Ky/UA~]f"></block>
+            </value>
+            <value name="B">
+              <block type="text" id=";[??XKp36YJf2U}j2_}e">
+                <field name="TEXT">!noteikumi</field>
+              </block>
+            </value>
+          </block>
+        </value>
+        <statement name="DO0">
+          <block type="s4d_reply" id="wgo^7yFoMz,K{AaMl6L)">
+            <value name="CONTENT">
+              <block type="s4d_message_embed" id="Hwc*oNl4,Z1rxj4LJ5}E">
+                <mutation xmlns="http://www.w3.org/1999/xhtml" message="true" color="true" title="true" image="true" footer="true" thumbnail="true"></mutation>
+                <value name="MESSAGE">
+                  <block type="text" id="c?y!cCZ]4S7[nP!RJQ0+">
+                    <field name="TEXT"></field>
+                  </block>
+                </value>
+                <value name="COLOR">
+                  <block type="colour_random" id="0v=J7E}g!#d[/Z/uoR5`"></block>
+                </value>
+                <value name="TITLE">
+                  <block type="text" id="9{gO6^lpn-lxvf{UU+L_">
+                    <field name="TEXT"></field>
+                  </block>
+                </value>
+              </block>
+            </value>
+          </block>
+        </statement>
+      </block>
+    </statement>
+  </block>
+</xml>
